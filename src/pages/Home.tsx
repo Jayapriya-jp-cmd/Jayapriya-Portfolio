@@ -62,7 +62,7 @@ const Home = () => {
               className="text-xl md:text-2xl text-foreground-muted font-inter leading-relaxed"
               variants={itemVariants}
             >
-              Cybersecurity Enthusiast | Frontend Developer | Offensive Security Learner
+              Final Year Cybersecurity Engineering Student | Full Stack Developer with Interest in AI
             </motion.p>
           </motion.div>
 
@@ -99,9 +99,9 @@ const Home = () => {
             variants={itemVariants}
             className="text-lg text-foreground-muted max-w-2xl mb-12 leading-relaxed"
           >
-            Welcome to my digital space! I'm a passionate cybersecurity engineering student with a love for 
-            building secure, beautiful web applications. I specialize in offensive security research and 
-            modern frontend development.
+            Welcome to my digital space! I'm a final year cybersecurity engineering student passionate about 
+            building secure, innovative applications. I specialize in full stack development with a keen 
+            interest in AI technologies and cybersecurity solutions.
           </motion.p>
 
           {/* CTA Buttons */}

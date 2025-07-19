@@ -7,7 +7,6 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
-import Articles from "./pages/Articles";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import Navbar from "./components/layout/Navbar";
@@ -30,7 +29,6 @@ const App = () => (
               <Route path="/about" element={<About />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/skills" element={<Skills />} />
-              <Route path="/articles" element={<Articles />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} />
             </Routes>

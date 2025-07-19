@@ -26,12 +26,12 @@ const About = () => {
   };
 
   const certifications = [
-    "AWS Cloud Practitioner",
-    "Bash Scripting",
-    "Wireshark Network Analysis",
-    "OWASP Security Practices",
-    "Penetration Testing",
-    "Linux System Administration"
+    "Java Programming Certificate",
+    "AWS Cloud Certificate",
+    "Frontend Development Certificate",
+    "Full Stack Development (Novitech Internship)",
+    "Cybersecurity Fundamentals",
+    "Web Development Technologies"
   ];
 
   return (
@@ -69,16 +69,16 @@ const About = () => {
                 </div>
                 <div className="space-y-4 text-foreground-muted leading-relaxed">
                   <p>
-                    I'm a cybersecurity engineering student with an insatiable curiosity for understanding 
-                    how digital systems work—and more importantly, how they can be secured against threats.
+                    I'm a final year cybersecurity engineering student with a passion for developing secure, 
+                    innovative solutions that bridge the gap between technology and security.
                   </p>
                   <p>
-                    My journey began with a fascination for ethical hacking and has evolved into a 
-                    comprehensive skill set spanning offensive security, web development, and cloud technologies.
+                    My journey spans full stack development, AI technologies, and cybersecurity practices. 
+                    I have hands-on experience through internships and real-world projects.
                   </p>
                   <p>
-                    When I'm not studying the latest security vulnerabilities or building web applications, 
-                    you'll find me contributing to open source projects and writing technical articles.
+                    I completed a full stack internship at Novitech Pvt Limited, where I gained valuable 
+                    industry experience in building scalable web applications.
                   </p>
                 </div>
               </div>
@@ -93,10 +93,10 @@ const About = () => {
                 </div>
                 <div className="space-y-4">
                   <div className="border-l-2 border-primary pl-4">
-                    <h3 className="text-lg font-semibold text-primary">B.Tech in Cybersecurity Engineering</h3>
-                    <p className="text-foreground-muted">University Name • 2021-2025</p>
+                    <h3 className="text-lg font-semibold text-primary">BE CSE Specialized in Cyber Security</h3>
+                    <p className="text-foreground-muted">Batch 2022-2026</p>
                     <p className="text-sm text-foreground-muted mt-2">
-                      Specializing in offensive security, network security, and secure software development
+                      Specializing in cybersecurity, full stack development, and AI technologies
                     </p>
                   </div>
                 </div>
