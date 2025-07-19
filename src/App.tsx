@@ -20,10 +20,10 @@ const App = () => (
     <TooltipProvider>
       <div className="min-h-screen bg-background text-foreground font-inter">
         <ParticlesBackground />
-        <Navbar />
         <Toaster />
         <Sonner />
         <BrowserRouter>
+          <Navbar />
           <main className="pt-16">
             <Routes>
               <Route path="/" element={<Home />} />
