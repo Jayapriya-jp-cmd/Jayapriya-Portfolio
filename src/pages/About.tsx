@@ -27,9 +27,9 @@ const About = () => {
 
   const certifications = [
     "Java Programming Certificate",
-    "AWS Cloud Certificate",
+    "AWS Cloud Certificate", 
     "Frontend Development Certificate",
-    "Full Stack Development (Novitech Internship)",
+    "Full Stack Development (Novitech Pvt Limited Internship)",
     "Cybersecurity Fundamentals",
     "Web Development Technologies"
   ];
@@ -94,9 +94,10 @@ const About = () => {
                 <div className="space-y-4">
                   <div className="border-l-2 border-primary pl-4">
                     <h3 className="text-lg font-semibold text-primary">BE CSE Specialized in Cyber Security</h3>
+                    <p className="text-foreground-muted">Arunai Engineering College</p>
                     <p className="text-foreground-muted">Batch 2022-2026</p>
                     <p className="text-sm text-foreground-muted mt-2">
-                      Specializing in cybersecurity, full stack development, and AI technologies
+                      Currently pursuing BE in Computer Science Engineering specialized in Cybersecurity
                     </p>
                   </div>
                 </div>
@@ -110,7 +111,7 @@ const About = () => {
                 <ul className="space-y-3 text-foreground-muted">
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-primary rounded-full mr-3" />
-                    Become a certified ethical hacker
+                    Develop applications with secure and AI integration
                   </li>
                   <li className="flex items-center">
                     <div className="w-2 h-2 bg-secondary rounded-full mr-3" />

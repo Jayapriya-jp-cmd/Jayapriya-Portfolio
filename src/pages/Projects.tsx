@@ -28,37 +28,37 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "SecureChat Pro",
-      description: "End-to-end encrypted messaging application with advanced security features including perfect forward secrecy and zero-knowledge architecture.",
-      tech: ["React", "Node.js", "WebRTC", "Cryptography"],
-      icon: Lock,
+      title: "Google Clone",
+      description: "A responsive Google search engine clone with modern UI design and clean interface built using HTML and Tailwind CSS.",
+      tech: ["HTML", "Tailwind CSS", "GitHub Pages"],
+      icon: Globe,
       gradient: "from-cyber-purple to-cyber-blue",
       github: "https://github.com",
       live: "https://demo.com"
     },
     {
-      title: "VulnScanner",
-      description: "Automated vulnerability scanner for web applications with custom payload generation and detailed reporting capabilities.",
-      tech: ["Python", "Flask", "SQLite", "OWASP"],
-      icon: Shield,
+      title: "MovieHunt Website",
+      description: "A dynamic movie discovery platform with search functionality, movie details, and responsive design using React and Bootstrap.",
+      tech: ["React JS", "Bootstrap", "HTML", "JavaScript"],
+      icon: Database,
       gradient: "from-cyber-blue to-cyber-teal",
       github: "https://github.com",
       live: "https://demo.com"
     },
     {
-      title: "Network Monitor",
-      description: "Real-time network traffic analyzer with anomaly detection and intrusion prevention system integration.",
-      tech: ["C++", "Wireshark", "Machine Learning", "Docker"],
-      icon: Globe,
+      title: "Book Recommender",
+      description: "An intelligent book recommendation system powered by LLM models from Hugging Face, providing personalized book suggestions.",
+      tech: ["Python", "Hugging Face", "LLM", "Machine Learning"],
+      icon: Shield,
       gradient: "from-cyber-teal to-cyber-green",
       github: "https://github.com",
       live: "https://demo.com"
     },
     {
-      title: "Secure Database API",
-      description: "RESTful API with advanced authentication, rate limiting, and SQL injection prevention mechanisms.",
-      tech: ["Node.js", "PostgreSQL", "JWT", "Redis"],
-      icon: Database,
+      title: "Food Supply for Poor",
+      description: "Salesforce project focused on creating a platform to supply leftover food to poor communities, reducing food waste and helping those in need.",
+      tech: ["Salesforce", "Apex", "Lightning", "Flow"],
+      icon: Lock,
       gradient: "from-cyber-green to-cyber-pink",
       github: "https://github.com",
       live: "https://demo.com"

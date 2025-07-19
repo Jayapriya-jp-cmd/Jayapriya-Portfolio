@@ -30,55 +30,45 @@ const Skills = () => {
 
   const skillCategories = [
     {
-      title: "Cybersecurity Tools",
-      icon: Shield,
+      title: "Frontend Development",
+      icon: Globe,
       gradient: "from-cyber-purple to-cyber-blue",
       skills: [
-        { name: "Wireshark", level: 90, icon: Monitor },
-        { name: "Metasploit", level: 85, icon: Terminal },
-        { name: "Burp Suite", level: 88, icon: Globe },
-        { name: "Nmap", level: 92, icon: Wifi },
-        { name: "John the Ripper", level: 80, icon: Lock },
-        { name: "Aircrack-ng", level: 75, icon: Zap }
+        { name: "HTML", level: 90, icon: Code },
+        { name: "CSS", level: 90, icon: Code },
+        { name: "JavaScript", level: 80, icon: Code },
+        { name: "React", level: 70, icon: Layers },
+        { name: "Tailwind CSS", level: 90, icon: Settings },
+        { name: "Bootstrap", level: 60, icon: Settings }
+      ]
+    },
+    {
+      title: "Backend Development",
+      icon: Database,
+      gradient: "from-cyber-blue to-cyber-teal",
+      skills: [
+        { name: "Node.js", level: 40, icon: Settings },
+        { name: "Express", level: 30, icon: Settings },
+        { name: "MongoDB", level: 40, icon: Database }
       ]
     },
     {
       title: "Programming Languages",
       icon: Code,
-      gradient: "from-cyber-blue to-cyber-teal",
-      skills: [
-        { name: "Python", level: 95, icon: Code },
-        { name: "JavaScript", level: 90, icon: Code },
-        { name: "TypeScript", level: 88, icon: Code },
-        { name: "C++", level: 85, icon: Code },
-        { name: "Bash", level: 92, icon: Terminal },
-        { name: "SQL", level: 87, icon: Database }
-      ]
-    },
-    {
-      title: "Web Technologies",
-      icon: Globe,
       gradient: "from-cyber-teal to-cyber-green",
       skills: [
-        { name: "React", level: 93, icon: Layers },
-        { name: "Node.js", level: 88, icon: Settings },
-        { name: "Express.js", level: 85, icon: Settings },
-        { name: "MongoDB", level: 82, icon: Database },
-        { name: "PostgreSQL", level: 80, icon: Database },
-        { name: "REST APIs", level: 90, icon: Globe }
+        { name: "Java", level: 85, icon: Code },
+        { name: "Python", level: 80, icon: Code },
+        { name: "JavaScript", level: 80, icon: Code }
       ]
     },
     {
-      title: "Cloud & DevOps",
-      icon: Cloud,
+      title: "Others",
+      icon: Settings,
       gradient: "from-cyber-green to-cyber-pink",
       skills: [
-        { name: "AWS", level: 85, icon: Cloud },
-        { name: "Docker", level: 88, icon: Layers },
-        { name: "Kubernetes", level: 75, icon: Settings },
-        { name: "Linux", level: 95, icon: Terminal },
-        { name: "Git", level: 92, icon: Code },
-        { name: "CI/CD", level: 80, icon: Settings }
+        { name: "GitHub", level: 40, icon: Code },
+        { name: "AWS", level: 75, icon: Cloud }
       ]
     }
   ];

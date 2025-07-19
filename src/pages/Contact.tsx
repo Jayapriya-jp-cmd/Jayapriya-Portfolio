@@ -42,11 +42,18 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
+    // Create mailto link
+    const subject = encodeURIComponent(`Portfolio Contact from ${formData.name}`);
+    const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`);
+    const mailtoLink = `mailto:jayapriyajain10@gmail.com?subject=${subject}&body=${body}`;
+
+    // Open default email client
+    window.location.href = mailtoLink;
+
     setTimeout(() => {
       toast({
-        title: "Message Sent!",
-        description: "Thank you for reaching out. I'll get back to you soon!",
+        title: "Email Client Opened!",
+        description: "Your default email client should open with the message ready to send.",
       });
       setFormData({ name: '', email: '', message: '' });
       setIsSubmitting(false);
@@ -63,8 +70,7 @@ const Contact = () => {
   const socialLinks = [
     { icon: Github, href: "https://github.com", label: "GitHub", color: "text-white" },
     { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn", color: "text-blue-400" },
-    { icon: Instagram, href: "https://instagram.com", label: "Instagram", color: "text-pink-400" },
-    { icon: Youtube, href: "https://youtube.com", label: "YouTube", color: "text-red-400" }
+    { icon: Instagram, href: "https://instagram.com", label: "Instagram", color: "text-pink-400" }
   ];
 
   return (
@@ -190,11 +196,11 @@ const Contact = () => {
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <Mail className="h-5 w-5 text-primary mr-4" />
-                    <span className="text-foreground-muted">jaya.priya@example.com</span>
+                    <span className="text-foreground-muted">jayapriyajain10@gmail.com</span>
                   </div>
                   <div className="flex items-center">
                     <Phone className="h-5 w-5 text-primary mr-4" />
-                    <span className="text-foreground-muted">+1 (555) 123-4567</span>
+                    <span className="text-foreground-muted">7448443931</span>
                   </div>
                   <div className="flex items-center">
                     <MapPin className="h-5 w-5 text-primary mr-4" />
