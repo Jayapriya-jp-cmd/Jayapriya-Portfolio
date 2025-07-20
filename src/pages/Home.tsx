@@ -2,8 +2,11 @@ import { motion } from 'framer-motion';
 import { Download, ArrowRight, Shield, Terminal, Globe } from 'lucide-react';
 import { AnimatedButton } from '@/components/ui/animated-button';
 import Scene3D from '@/components/3d/Scene3D';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+  const navigate = useNavigate();
+  
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -113,6 +116,7 @@ const Home = () => {
               variant="cyber" 
               size="lg"
               className="group"
+              onClick={() => navigate('/projects')}
             >
               View My Work
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
@@ -121,6 +125,7 @@ const Home = () => {
               variant="glow" 
               size="lg"
               className="group"
+              onClick={() => window.open('https://drive.google.com/file/d/1-uEXf7DKTPHz_hGah4UIEhuMYKAtjwmE/view?usp=sharing', '_blank')}
             >
               <Download className="mr-2 h-5 w-5 transition-transform group-hover:scale-110" />
               Download Resume

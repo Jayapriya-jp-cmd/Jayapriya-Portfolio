@@ -68,7 +68,9 @@ const Skills = () => {
       gradient: "from-cyber-green to-cyber-pink",
       skills: [
         { name: "GitHub", level: 40, icon: Code },
-        { name: "AWS", level: 75, icon: Cloud }
+        { name: "AWS", level: 75, icon: Cloud },
+        { name: "Canva", level: 80, icon: Settings },
+        { name: "Figma", level: 50, icon: Settings }
       ]
     }
   ];

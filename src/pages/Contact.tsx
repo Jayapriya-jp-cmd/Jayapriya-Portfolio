@@ -68,9 +68,8 @@ const Contact = () => {
   };
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub", color: "text-white" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn", color: "text-blue-400" },
-    { icon: Instagram, href: "https://instagram.com", label: "Instagram", color: "text-pink-400" }
+    { icon: Github, href: "https://github.com/Jayapriya-jp-cmd", label: "GitHub", color: "text-white" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/jaya-priya-218b68348", label: "LinkedIn", color: "text-blue-400" }
   ];
 
   return (

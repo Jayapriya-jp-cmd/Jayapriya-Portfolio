@@ -33,8 +33,8 @@ const Projects = () => {
       tech: ["HTML", "Tailwind CSS", "GitHub Pages"],
       icon: Globe,
       gradient: "from-cyber-purple to-cyber-blue",
-      github: "https://github.com",
-      live: "https://demo.com"
+      github: "https://github.com/Jayapriya-jp-cmd/Google-clone",
+      live: "https://jayapriya-jp-cmd.github.io/Google-clone/"
     },
     {
       title: "MovieHunt Website",
@@ -42,7 +42,7 @@ const Projects = () => {
       tech: ["React JS", "Bootstrap", "HTML", "JavaScript"],
       icon: Database,
       gradient: "from-cyber-blue to-cyber-teal",
-      github: "https://github.com",
+      github: "https://github.com/Jayapriya-jp-cmd/MovieHunt",
       live: "https://demo.com"
     },
     {
@@ -51,7 +51,7 @@ const Projects = () => {
       tech: ["Python", "Hugging Face", "LLM", "Machine Learning"],
       icon: Shield,
       gradient: "from-cyber-teal to-cyber-green",
-      github: "https://github.com",
+      github: "https://github.com/Jayapriya-jp-cmd",
       live: "https://demo.com"
     },
     {
@@ -60,7 +60,7 @@ const Projects = () => {
       tech: ["Salesforce", "Apex", "Lightning", "Flow"],
       icon: Lock,
       gradient: "from-cyber-green to-cyber-pink",
-      github: "https://github.com",
+      github: "https://github.com/Jayapriya-jp-cmd/SalesForce-Project",
       live: "https://demo.com"
     }
   ];
