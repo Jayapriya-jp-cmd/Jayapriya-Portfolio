@@ -125,7 +125,7 @@ const Home = () => {
               variant="glow" 
               size="lg"
               className="group"
-              onClick={() => window.open('https://drive.google.com/file/d/1-uEXf7DKTPHz_hGah4UIEhuMYKAtjwmE/view?usp=drive_link', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/11vPQb_Zk91AnamMGVZ5NjRVqKeYY5-qL/view?usp=sharing', '_blank')}
             >
               <Download className="mr-2 h-5 w-5 transition-transform group-hover:scale-110" />
               Download Resume

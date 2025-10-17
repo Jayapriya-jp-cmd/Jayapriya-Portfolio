@@ -1,5 +1,6 @@
+import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github, Lock, Globe, Database, Shield } from 'lucide-react';
+import { ExternalLink, Lock, Globe, Database, Shield, Github } from 'lucide-react';
 import { AnimatedButton } from '@/components/ui/animated-button';
 
 const Projects = () => {
@@ -27,15 +28,25 @@ const Projects = () => {
   };
 
   const projects = [
-    {
-      title: "Google Clone",
-      description: "A responsive Google search engine clone with modern UI design and clean interface built using HTML and Tailwind CSS.",
-      tech: ["HTML", "Tailwind CSS", "GitHub Pages"],
-      icon: Globe,
-      gradient: "from-cyber-purple to-cyber-blue",
-      github: "https://github.com/Jayapriya-jp-cmd/Google-clone",
-      live: "https://jayapriya-jp-cmd.github.io/Google-clone/"
+     {
+      title: "Ai Trip Planner",
+      description: " Personalized itineraries and  multilingual chatbot support using Generative AI and translationAPIs",
+      tech: ["React", "Node js", "Web speech API", "Firebase","Gemini AI"],
+      icon: Shield,
+      gradient: "from-cyber-teal to-cyber-green",
+      github: "https://github.com/Jayapriya-jp-cmd/ai-trip",
+      live: "https://ai-trip-37ez.vercel.app/"
     },
+    {
+      title: "Mental Health Support Platform",
+      description: "A platform providing mental health resources and support through AI-driven chatbots and user-friendly interfaces.",
+      tech: ["React", "Node.js", "Express", "Firestore","Spotify API"],
+      icon: Shield,
+      gradient: "from-cyber-teal to-cyber-green",
+      github: "https://github.com/Jayapriya-jp-cmd/mental-health-support-system",
+      live: "https://mental-health-support-system-hgm1hn9k5.vercel.app/"
+    },
+
     {
       title: "MovieHunt Website",
       description: "A dynamic movie discovery platform with search functionality, movie details, and responsive design using React and Bootstrap.",
@@ -43,26 +54,38 @@ const Projects = () => {
       icon: Database,
       gradient: "from-cyber-blue to-cyber-teal",
       github: "https://github.com/Jayapriya-jp-cmd/MovieHunt",
-      live: "https://demo.com"
+      
     },
     {
-      title: "Book Recommender",
-      description: "An intelligent book recommendation system powered by LLM models from Hugging Face, providing personalized book suggestions.",
-      tech: ["Python", "Hugging Face", "LLM", "Machine Learning"],
-      icon: Shield,
-      gradient: "from-cyber-teal to-cyber-green",
-      github: "https://github.com/Jayapriya-jp-cmd",
-      live: "https://demo.com"
-    },
-    {
-      title: "Food Supply for Poor",
+      title: "Food Connect Salesforce",
       description: "Salesforce project focused on creating a platform to supply leftover food to poor communities, reducing food waste and helping those in need.",
       tech: ["Salesforce", "Apex", "Lightning", "Flow"],
       icon: Lock,
       gradient: "from-cyber-green to-cyber-pink",
       github: "https://github.com/Jayapriya-jp-cmd/SalesForce-Project",
-      live: "https://demo.com"
+     
+    },
+    {
+      title: "Google Clone",
+      description: "A responsive Google search engine clone with modern UI design and clean interface built using HTML and Tailwind CSS.",
+      tech: ["HTML", "Tailwind CSS", "GitHub Pages"],
+      icon: Globe,
+      gradient: "from-cyber-purple to-cyber-blue",
+      github: "https://github.com/Jayapriya-jp-cmd/Google-clone",
+     
+    },
+    {
+      title: "Landing Page Design",
+      description: "A responsive landing page design with modern UI elements and a clean interface built using HTML and Tailwind CSS.",
+      tech: ["HTML", "Tailwind CSS", "GitHub Pages"],
+      icon: Globe,
+      gradient: "from-cyber-purple to-cyber-blue",
+      github: "https://github.com/Jayapriya-jp-cmd/Google-clone",
+     
     }
+    
+   
+    
   ];
 
   return (

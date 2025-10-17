@@ -26,12 +26,11 @@ const About = () => {
   };
 
   const certifications = [
-    "Java Programming Certificate",
-    "AWS Cloud Certificate", 
-    "Frontend Development Certificate",
+    "Amazon Junior Software Developer with GenAI Professional Certificate",
     "Full Stack Development (Novitech Pvt Limited Internship)",
-    "Cybersecurity Fundamentals",
-    "Web Development Technologies"
+    "IBM Java Developer",
+    "Google Cyber Security Professional Certificate",
+    "Gen Ai Agent - Google Cloud",
   ];
 
   return (

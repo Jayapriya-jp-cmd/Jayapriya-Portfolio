@@ -67,7 +67,11 @@ const Navbar = () => {
                 )}
               </Link>
             ))}
-            <Button variant="default" className="glow-primary">
+            <Button 
+              variant="default" 
+              className="glow-primary"
+              onClick={() => window.open('https://drive.google.com/file/d/11vPQb_Zk91AnamMGVZ5NjRVqKeYY5-qL/view?usp=sharing', '_blank')}
+            >
               Resume
             </Button>
           </div>
@@ -108,7 +112,10 @@ const Navbar = () => {
                   {item.name}
                 </Link>
               ))}
-              <Button className="w-full mt-4 glow-primary">
+              <Button 
+                className="w-full mt-4 glow-primary"
+                onClick={() => window.open('https://drive.google.com/file/d/11vPQb_Zk91AnamMGVZ5NjRVqKeYY5-qL/view?usp=sharing', '_blank')}
+              >
                 Resume
               </Button>
             </div>
